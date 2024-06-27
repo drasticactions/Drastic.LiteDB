@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>LiteDB</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <IsAotCompatible>true</IsAotCompatible>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);NO_LINQ_EXPRESSION</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_FILE_STORAGE</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_SQL</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_SHARED</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_REPOSITORY</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_INCLUDE_QUERY</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_WHERE_QUERY</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_ORDERBY_OR_GROUPBY_QUERY</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_HAVING_QUERY</DefineConstants>
+    <DefineConstants>$(DefineConstants);EXPRESSION_PARSER_ONLY_FOR_INDEX</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_ENTITY_MAPPER</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_REGEX</DefineConstants>
+    <DefineConstants>$(DefineConstants);INVARIANT_CULTURE</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_REFLECTION_MORE</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_UNUSED_ERROR_CODE</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_V7_MIGRATION</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_CREATE_INDEX</DefineConstants>
+    <DefineConstants>$(DefineConstants);NO_RENAME_COLLECTION</DefineConstants>
+  </PropertyGroup>
+
+</Project>
